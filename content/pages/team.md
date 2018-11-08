@@ -11,7 +11,6 @@ category: team
 
 ### Post-docs
 
-  - [Jean-Baptiste Schiratti](https://scholar.google.fr/citations?user=PBEJzOcAAAAJ&hl=fr)
   - [Thomas Moreau](https://tommoral.github.io/about.html)
 
 ### PhD Students
@@ -27,6 +26,7 @@ category: team
 
 ### Alumni
 
+  - [Jean-Baptiste Schiratti](https://scholar.google.fr/citations?user=PBEJzOcAAAAJ&hl=fr) [Post Doc]
   - [Mainak Jas](http://perso.telecom-paristech.fr/~mjas/) (now post-doc at Harvard MGH Martinos Center) [PhD]
   - [Yousra Bekhti](https://sites.google.com/site/yousrabekhti/) (coadvised with [Roland Badeau](http://perso.telecom-paristech.fr/~rbadeau/)) (now at Engie in Boston, USA) [PhD]
   - [Albert Thomas](https://albertcthomas.github.io/) (coadvised with [Stéphan Clémençon](http://perso.telecom-paristech.fr/~clemenco/Home.html)) (now at Huawei Technologies) [PhD]
