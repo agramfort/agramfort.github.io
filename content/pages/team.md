@@ -6,8 +6,8 @@ category: team
 
 ### Engineers
 
-  - [Roque Porchetto](https://www.linkedin.com/in/roque-porchetto-74897b31/)
   - [Joan Massich](https://github.com/massich)
+  - [Guillaume Favellier](https://github.com/GuillaumeFavelier)
 
 ### Post-docs
 
@@ -15,8 +15,6 @@ category: team
 
 ### PhD Students
 
-  - [Tom Dupré La Tour](https://www.researchgate.net/profile/Tom_Dupre_La_Tour) (coadvised with [Yves Grenier](http://perso.telecom-paristech.fr/~grenier/))
-  - [Stanislas Chambon](https://slasnista.github.io)
   - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/))
   - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Hicham Janati](https://github.com/hichamjanati) (coadvised with [Marco Cuturi](http://marcocuturi.net/))
@@ -26,10 +24,13 @@ category: team
 
 ### Alumni
 
-  - [Jean-Baptiste Schiratti](https://scholar.google.fr/citations?user=PBEJzOcAAAAJ&hl=fr) [Post Doc]
+  - [Roque Porchetto](https://www.linkedin.com/in/roque-porchetto-74897b31/) (now engineer at nexedi) [Engineer]
+  - [Tom Dupré La Tour](https://www.researchgate.net/profile/Tom_Dupre_La_Tour) (coadvised with [Yves Grenier](http://perso.telecom-paristech.fr/~grenier/)) (now post-doc at UC Berkeley) [PhD]
+  - [Stanislas Chambon](https://slasnista.github.io) (now engineer at therapixel) [PhD]
+  - [Jean-Baptiste Schiratti](https://scholar.google.fr/citations?user=PBEJzOcAAAAJ&hl=fr) (now engineer at bioserenity) [Post Doc]
   - [Mainak Jas](http://perso.telecom-paristech.fr/~mjas/) (now post-doc at Harvard MGH Martinos Center) [PhD]
-  - [Yousra Bekhti](https://sites.google.com/site/yousrabekhti/) (coadvised with [Roland Badeau](http://perso.telecom-paristech.fr/~rbadeau/)) (now at Engie in Boston, USA) [PhD]
-  - [Albert Thomas](https://albertcthomas.github.io/) (coadvised with [Stéphan Clémençon](http://perso.telecom-paristech.fr/~clemenco/Home.html)) (now at Huawei Technologies) [PhD]
+  - [Yousra Bekhti](https://sites.google.com/site/yousrabekhti/) (coadvised with [Roland Badeau](http://perso.telecom-paristech.fr/~rbadeau/)) (now engineer at Engie in Boston, USA) [PhD]
+  - [Albert Thomas](https://albertcthomas.github.io/) (coadvised with [Stéphan Clémençon](http://perso.telecom-paristech.fr/~clemenco/Home.html)) (now researcher at Huawei Technologies) [PhD]
   - [Jaakko Leppäkangas](https://github.com/jaeilepp) [Engineer]
   - Romain Laby (coadvised with [François Roueff](http://perso.telecom-paristech.fr/~roueff/)) (now at [Criteo](http://www.criteo.com)) [PhD]
   - [Thierry Guillemot](https://github.com/tguillemot) (now at [Rythm Inc.](https://dreem.com/fr/)) [Engineer]
