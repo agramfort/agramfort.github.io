@@ -109,6 +109,9 @@ for k, item in enumerate(records.entries):
     item['bibtex'] = bibtexparser.dumps(one_records).strip()
     item['title'] = make_nice_title(item['title'])
     item['index'] = k
+    if 'url' in item:
+        print(item)
+        item['link'] = item['url']
 
 # records.entries.sort(key=lambda record: record['year'], reverse=True)
 
