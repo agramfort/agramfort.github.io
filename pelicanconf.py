@@ -98,8 +98,12 @@ def make_nice_title(title):
 with open('./data/Gramfort.bib') as bib:
     bib_str = bib.read()
 
-records = bibtexparser.loads(bib_str)
-one_records = bibtexparser.loads(bib_str)
+parser = bibtexparser.bparser.BibTexParser(common_strings=True)
+records = parser.parse(bib_str)
+one_records = parser.parse(bib_str)
+
+entries = []
+
 for k, item in enumerate(records.entries):
     one_records.entries = records.entries[k:k + 1]
     item['author'] = make_nice_author(item['author'])
@@ -111,8 +115,9 @@ for k, item in enumerate(records.entries):
     item['index'] = k
     if 'url' in item:
         item['link'] = item['url']
+    entries.append(item)
 
 # records.entries.sort(key=lambda record: record['year'], reverse=True)
 
-PUBLICATION_LIST = records.entries[:]
+PUBLICATION_LIST = entries
 PUBLICATION_LIST_SHORT = PUBLICATION_LIST[:7]
