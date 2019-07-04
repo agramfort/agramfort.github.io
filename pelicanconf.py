@@ -66,7 +66,8 @@ PAGINATION_PATTERNS = (
 
 PLUGIN_PATHS = ['../pelican-plugins']
 
-TEMPLATE_PAGES = {'publications.html': 'publications.html'}
+TEMPLATE_PAGES = {'publications.html': 'publications.html',
+                  'erc-slab.html': 'erc-slab.html'}
 
 # Publications
 
@@ -95,29 +96,37 @@ def make_nice_title(title):
 - only full author records, in "surname, name and" format
 """
 
-with open('./data/Gramfort.bib') as bib:
-    bib_str = bib.read()
 
-parser = bibtexparser.bparser.BibTexParser(common_strings=True)
-records = parser.parse(bib_str)
-one_records = parser.parse(bib_str)
+def get_bib_entries(bib_fname):
+    with open(bib_fname) as bib:
+        bib_str = bib.read()
 
-entries = []
+    parser = bibtexparser.bparser.BibTexParser(common_strings=True)
+    records = parser.parse(bib_str)
+    one_records = parser.parse(bib_str)
 
-for k, item in enumerate(records.entries):
-    one_records.entries = records.entries[k:k + 1]
-    item['author'] = make_nice_author(item['author'])
-    for key in ['annote', 'owner', 'group', 'topic']:
-        if key in item:
-            del item[key]
-    item['bibtex'] = bibtexparser.dumps(one_records).strip()
-    item['title'] = make_nice_title(item['title'])
-    item['index'] = k
-    if 'url' in item:
-        item['link'] = item['url']
-    entries.append(item)
+    entries = []
+
+    for k, item in enumerate(records.entries):
+        one_records.entries = records.entries[k:k + 1]
+        item['author'] = make_nice_author(item['author'])
+        for key in ['annote', 'owner', 'group', 'topic']:
+            if key in item:
+                del item[key]
+        item['bibtex'] = bibtexparser.dumps(one_records).strip()
+        item['title'] = make_nice_title(item['title'])
+        item['index'] = k
+        if 'url' in item:
+            item['link'] = item['url']
+        entries.append(item)
+    return entries
+
+
+entries = get_bib_entries('./data/Gramfort.bib')
+entries_slab = get_bib_entries('./data/Gramfort_SLAB.bib')
 
 # records.entries.sort(key=lambda record: record['year'], reverse=True)
 
 PUBLICATION_LIST = entries
+PUBLICATION_LIST_SLAB = entries_slab
 PUBLICATION_LIST_SHORT = PUBLICATION_LIST[:7]
