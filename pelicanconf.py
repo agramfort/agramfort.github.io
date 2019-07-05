@@ -103,7 +103,8 @@ def get_bib_entries(bib_fname):
 
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
     records = parser.parse(bib_str)
-    one_records = parser.parse(bib_str)
+    parser2 = bibtexparser.bparser.BibTexParser(common_strings=True)
+    one_records = parser2.parse(bib_str)
 
     entries = []
 
@@ -113,6 +114,7 @@ def get_bib_entries(bib_fname):
         for key in ['annote', 'owner', 'group', 'topic']:
             if key in item:
                 del item[key]
+
         item['bibtex'] = bibtexparser.dumps(one_records).strip()
         item['title'] = make_nice_title(item['title'])
         item['index'] = k
