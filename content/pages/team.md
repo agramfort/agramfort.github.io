@@ -18,8 +18,8 @@ category: team
   - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/))
   - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Hicham Janati](https://hichamjanati.github.io) (coadvised with [Marco Cuturi](http://marcocuturi.net/))
-  - [Quentin Bertrand](https://github.com/qbertrand) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
-  - [Hubert Banville](https://github.com/hubertjb) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
+  - [Quentin Bertrand](https://qb3.github.io/) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
+  - [Hubert Banville](https://hubertjb.github.io/) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [David Sabbagh](https://github.com/DavidSabbagh) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
 
 ### Alumni
