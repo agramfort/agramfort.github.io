@@ -381,7 +381,8 @@ Comment = {<a href="https://github.com/pierreablin/picard">[Code]</a>},
     abstract = {Author summary Neural oscillations synchronize information across brain areas at various anatomical and temporal scales. Of particular relevance, slow fluctuations of brain activity have been shown to affect high frequency neural activity, by regulating the excitability level of neural populations. Such cross-frequency-coupling can take several forms. In the most frequently observed type, the power of high frequency activity is time-locked to a specific phase of slow frequency oscillations, yielding phase-amplitude-coupling (PAC). Even when readily observed in neural recordings, such non-linear coupling is particularly challenging to formally characterize. Typically, neuroscientists use band-pass filtering and Hilbert transforms with ad-hoc correlations. Here, we explicitly address current limitations and propose an alternative probabilistic signal modeling approach, for which statistical inference is fast and well-posed. To statistically model PAC, we propose to use non-linear auto-regressive models which estimate the spectral modulation of a signal conditionally to a driving signal. This conditional spectral analysis enables easy model selection and clear hypothesis-testing by using the likelihood of a given model. We demonstrate the advantage of the model-based approach on three datasets acquired in rats and in humans. We further provide novel neuroscientific insights on previously reported PAC phenomena, capturing two mechanisms in PAC: influence of amplitude and directionality estimation.},
     number = {12},
     doi = {10.1371/journal.pcbi.1005893},
-    pdf={http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005893&type=printable}
+    pdf={http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005893&type=printable},
+    Comment = {<a href="https://github.com/pactools/pactools">[Code]</a>},
 }
 
 @inproceedings{schulz:hal-01633096,
@@ -473,6 +474,7 @@ issn = "1053-8119",
 doi = "https://doi.org/10.1016/j.neuroimage.2017.06.030",
 url = "http://www.sciencedirect.com/science/article/pii/S1053811917305013",
 pdf = "https://arxiv.org/pdf/1612.08194.pdf",
+Comment = {<a href="https://github.com/autoreject/autoreject">[Code]</a>},
 }
 
 @ARTICLE{chambon-etal:17,
@@ -601,6 +603,7 @@ pdf={http://jmlr.org/papers/volume18/15-495/15-495.pdf}
   PDF = {https://hal.archives-ouvertes.fr/hal-01313458/file/automated-rejection-repair.pdf},
   HAL_ID = {hal-01313458},
   HAL_VERSION = {v1},
+  Comment = {<a href="https://github.com/autoreject/autoreject">[Code]</a>},
 }
 
 @inproceedings{bekhti-etal:16,
@@ -714,7 +717,8 @@ doi = "http://dx.doi.org/10.1016/j.neuroimage.2014.09.060",
 url = "http://www.sciencedirect.com/science/article/pii/S1053811914008027",
 author = "Pedregosa, Fabian and Eickenberg, Michael and Ciuciu, Philippe and Thirion, Bertrand and Gramfort, Alexandre",
 keywords = "Functional MRI (fMRI),, Hemodynamic response function (HRF), Machine learning, Optimization, BOLD,Finite impulse response (FIR), Decoding, Encoding",
-abstract = "Abstract Despite the common usage of a canonical, data-independent, hemodynamic response function (HRF), it is known that the shape of the \{HRF\} varies across brain regions and subjects. This suggests that a data-driven estimation of this function could lead to more statistical power when modeling \{BOLD\} fMRI data. However, unconstrained estimation of the \{HRF\} can yield highly unstable results when the number of free parameters is large. We develop a method for the joint estimation of activation and \{HRF\} by means of a rank constraint, forcing the estimated \{HRF\} to be equal across events or experimental conditions, yet permitting it to differ across voxels. Model estimation leads to an optimization problem that we propose to solve with an efficient quasi-Newton method, exploiting fast gradient computations. This model, called \{GLM\} with Rank-1 constraint (R1-GLM), can be extended to the setting of \{GLM\} with separate designs which has been shown to improve decoding accuracy in brain activity decoding experiments. We compare 10 different \{HRF\} modeling methods in terms of encoding and decoding scores on two different datasets. Our results show that the R1-GLM model outperforms competing methods in both encoding and decoding settings, positioning it as an attractive method both from the points of view of accuracy and computational efficiency. "
+abstract = "Abstract Despite the common usage of a canonical, data-independent, hemodynamic response function (HRF), it is known that the shape of the \{HRF\} varies across brain regions and subjects. This suggests that a data-driven estimation of this function could lead to more statistical power when modeling \{BOLD\} fMRI data. However, unconstrained estimation of the \{HRF\} can yield highly unstable results when the number of free parameters is large. We develop a method for the joint estimation of activation and \{HRF\} by means of a rank constraint, forcing the estimated \{HRF\} to be equal across events or experimental conditions, yet permitting it to differ across voxels. Model estimation leads to an optimization problem that we propose to solve with an efficient quasi-Newton method, exploiting fast gradient computations. This model, called \{GLM\} with Rank-1 constraint (R1-GLM), can be extended to the setting of \{GLM\} with separate designs which has been shown to improve decoding accuracy in brain activity decoding experiments. We compare 10 different \{HRF\} modeling methods in terms of encoding and decoding scores on two different datasets. Our results show that the R1-GLM model outperforms competing methods in both encoding and decoding settings, positioning it as an attractive method both from the points of view of accuracy and computational efficiency. ",
+Comment = {<a href="https://github.com/fabianp/hrf_estimation">[Code]</a>},
 }
 
 @InProceedings{fercoq-etal:15,
