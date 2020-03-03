@@ -6,24 +6,27 @@ category: team
 
 ### Engineers
 
-  - [Joan Massich](https://github.com/massich)
   - [Guillaume Favellier](https://github.com/GuillaumeFavelier)
+  - [Richard Höchenberger](https://hoechenberger.net/)
 
 ### Post-docs
 
-  - [Thomas Moreau](https://tommoral.github.io/about.html)
+  - [Pedro L. C. Rodrigues](https://scholar.google.fr/citations?user=8Jiux08AAAAJ&hl=en)
 
 ### PhD Students
 
-  - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/))
-  - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Hicham Janati](https://hichamjanati.github.io) (coadvised with [Marco Cuturi](http://marcocuturi.net/))
   - [Quentin Bertrand](https://qb3.github.io/) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Hubert Banville](https://hubertjb.github.io/) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [David Sabbagh](https://github.com/DavidSabbagh) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
+  - [Charlotte Caucheteux](https://www.researchgate.net/profile/Charlotte_Caucheteux) (coadvised with [Jean-Rémi King](https://lsp.dec.ens.fr/fr/member/64687/jean-remi-king))
 
 ### Alumni
 
+  - [Joan Massich](https://github.com/massich)
+  - [Thomas Moreau](https://tommoral.github.io/about.html)
+  - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/))
+  - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Roque Porchetto](https://www.linkedin.com/in/roque-porchetto-74897b31/) (now engineer at nexedi) [Engineer]
   - [Tom Dupré La Tour](https://www.researchgate.net/profile/Tom_Dupre_La_Tour) (coadvised with [Yves Grenier](http://perso.telecom-paristech.fr/~grenier/)) (now post-doc at UC Berkeley) [PhD]
   - [Stanislas Chambon](https://slasnista.github.io) (now engineer at therapixel) [PhD]
