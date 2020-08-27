@@ -100,6 +100,205 @@ SLAB will provide the next generation of models and algorithms for mining electr
                 </p>
                 <h2 class="content-subhead">Publications related to the SLAB Project:</h2>
 <p class="post-meta">
+    <b>Spatio-temporal alignments: Optimal transport through space and time</b><br/>
+    Janati, H., Cuturi, M. and <strong><em>Gramfort, A.</em></strong> (2020)
+        <br/>
+        AISTATS
+    <br/>
+        <a href="http://proceedings.mlr.press/v108/janati20a/janati20a.pdf">
+            <img src="images/Haltools_pdf.png">
+        </a>
+        <a href="http://proceedings.mlr.press/v108/janati20a.html">[www]</a>
+        <a class="publi-bibtex-button" id="bibtex_0">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_0_content">
+            <pre>@inproceedings{janati-etal:20a,
+ abstract = {Comparing data defined over space and time is notoriously hard. It involves quantifying both spatial and temporal variability while taking into account the chronological structure of the data. Dynamic Time Warping (DTW) computes a minimal cost alignment between time series that preserves the chronological order but is inherently blind to spatio-temporal shifts. In this paper, we propose Spatio-Temporal Alignments (STA), a new differentiable formulation of DTW that captures spatial and temporal variability. Spatial differences between time samples are captured using regularized Optimal transport. While temporal alignment cost exploits a smooth variant of DTW called soft-DTW. We show how smoothing DTW leads to alignment costs that increase quadratically with time shifts. The costs are expressed using an unbalanced Wasserstein distance to cope with observations that are not probabilities. Experiments on handwritten letters and brain imaging data confirm our theoretical findings and illustrate the effectiveness of STA as a dissimilarity for spatio-temporal data.},
+ address = {Online},
+ author = {Janati, H., Cuturi, M. and <strong><em>Gramfort, A.</em></strong>},
+ booktitle = {AISTATS},
+ editor = {Silvia Chiappa and Roberto Calandra},
+ month = {26--28 Aug},
+ pages = {1695--1704},
+ pdf = {http://proceedings.mlr.press/v108/janati20a/janati20a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Spatio-temporal alignments: Optimal transport through space and time},
+ url = {http://proceedings.mlr.press/v108/janati20a.html},
+ volume = {108},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Debiased Sinkhorn Barycenters</b><br/>
+    Janati, H., Cuturi, M. and <strong><em>Gramfort, A.</em></strong> (2020)
+        <br/>
+        Proc. ICML 2020
+    <br/>
+        <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1584-Paper.pdf">
+            <img src="images/Haltools_pdf.png">
+        </a>
+        <a class="publi-bibtex-button" id="bibtex_1">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_1_content">
+            <pre>@inproceedings{janati-etal:20b,
+ author = {Janati, H., Cuturi, M. and <strong><em>Gramfort, A.</em></strong>},
+ booktitle = {Proc. ICML 2020},
+ month = {July},
+ pdf = {https://proceedings.icml.cc/static/paper_files/icml/2020/1584-Paper.pdf},
+ title = {Debiased Sinkhorn Barycenters},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Implicit differentiation of Lasso-type models for hyperparameter optimization</b><br/>
+    Bertrand, Q., Klopfenstein, Q., Blondel, M., Vaiter, S., <strong><em>Gramfort, A.</em></strong> and Salmon, J. (2020)
+        <br/>
+        Proc. ICML 2020
+    <br/>
+        <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/1831-Paper.pdf">
+            <img src="images/Haltools_pdf.png">
+        </a>
+        <a href="https://arxiv.org/abs/2002.08943">[www]</a>
+        <a class="publi-bibtex-button" id="bibtex_2">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_2_content">
+            <pre>@inproceedings{bertrand-etal:20,
+ author = {Bertrand, Q., Klopfenstein, Q., Blondel, M., Vaiter, S., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
+ booktitle = {Proc. ICML 2020},
+ month = {July},
+ pdf = {https://proceedings.icml.cc/static/paper_files/icml/2020/1831-Paper.pdf},
+ title = {Implicit differentiation of Lasso-type models for hyperparameter optimization},
+ url = {https://arxiv.org/abs/2002.08943},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers</b><br/>
+    Engemann, D., Kozynets, O., Sabbagh, D., Lemaître, G., Varoquaux, G., Liem, F. and <strong><em>Gramfort, A.</em></strong> (2020)
+        <br/>
+        eLife
+            9: (e54055).
+    <br/>
+        <a href="https://doi.org/10.7554/eLife.54055">[www]</a>
+        <a class="publi-bibtex-button" id="bibtex_3">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_3_content">
+            <pre>@article{engemann-etal:20,
+ abstract = {Electrophysiological methods, that is M/EEG, provide unique views into brain health. Yet, when building predictive models from brain data, it is often unclear how electrophysiology should be combined with other neuroimaging methods. Information can be redundant, useful common representations of multimodal data may not be obvious and multimodal data collection can be medically contraindicated, which reduces applicability. Here, we propose a multimodal model to robustly combine MEG, MRI and fMRI for prediction. We focus on age prediction as a surrogate biomarker in 674 subjects from the Cam-CAN dataset. Strikingly, MEG, fMRI and MRI showed additive effects supporting distinct brain-behavior associations. Moreover, the contribution of MEG was best explained by cortical power spectra between 8 and 30 Hz. Finally, we demonstrate that the model preserves benefits of stacking when some data is missing. The proposed framework, hence, enables multimodal learning for a wide range of biomarkers from diverse types of brain signals.},
+ author = {Engemann, D., Kozynets, O., Sabbagh, D., Lemaître, G., Varoquaux, G., Liem, F. and <strong><em>Gramfort, A.</em></strong>},
+ citation = {eLife 2020;9:e54055},
+ doi = {10.7554/eLife.54055},
+ editor = {Shackman, Alexander and de Lange, Floris P and Tsvetanov, Kamen and Trujillo-Barreto, Nelson},
+ issn = {2050-084X},
+ journal = {eLife},
+ keywords = {biomarker, aging, magnetic resonance imaging, magnetoencephalogrphy, oscillations, machine learning},
+ month = {may},
+ pages = {e54055},
+ pub_date = {2020-05-19},
+ publisher = {eLife Sciences Publications, Ltd},
+ title = {Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers},
+ url = {https://doi.org/10.7554/eLife.54055},
+ volume = {9},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</b><br/>
+    Sabbagh, D., Ablin, P., Varoquaux, G., <strong><em>Gramfort, A.</em></strong> and Engemann, D. (2020)
+        <br/>
+        NeuroImage
+            222: (116893).
+    <br/>
+        <a href="http://www.sciencedirect.com/science/article/pii/S1053811920303797">[www]</a>
+        <a class="publi-bibtex-button" id="bibtex_4">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_4_content">
+            <pre>@article{sabbagh-etal:20,
+ abstract = {Predicting biomedical outcomes from Magnetoencephalography and Electroencephalography (M/EEG) is central to applications like decoding, brain-computer-interfaces (BCI) or biomarker development and is facilitated by supervised machine learning. Yet, most of the literature is concerned with classification of outcomes defined at the event-level. Here, we focus on predicting continuous outcomes from M/EEG signal defined at the subject-level, and analyze about 600 MEG recordings from Cam-CAN dataset and about 1000 EEG recordings from TUH dataset. Considering different generative mechanisms for M/EEG signals and the biomedical outcome, we propose statistically-consistent predictive models that avoid source-reconstruction based on the covariance as representation. Our mathematical analysis and ground-truth simulations demonstrated that consistent function approximation can be obtained with supervised spatial filtering or by embedding with Riemannian geometry. Additional simulations revealed that Riemannian methods were more robust to model violations, in particular geometric distortions induced by individual anatomy. To estimate the relative contribution of brain dynamics and anatomy to prediction performance, we propose a novel model inspection procedure based on biophysical forward modeling. Applied to prediction of outcomes at the subject-level, the analysis revealed that the Riemannian model better exploited anatomical information while sensitivity to brain dynamics was similar across methods. We then probed the robustness of the models across different data cleaning options. Environmental denoising was globally important but Riemannian models were strikingly robust and continued performing well even without preprocessing. Our results suggest each method has its niche: supervised spatial filtering is practical for event-level prediction while the Riemannian model may enable simple end-to-end learning.},
+ author = {Sabbagh, D., Ablin, P., Varoquaux, G., <strong><em>Gramfort, A.</em></strong> and Engemann, D.},
+ doi = {https://doi.org/10.1016/j.neuroimage.2020.116893},
+ issn = {1053-8119},
+ journal = {NeuroImage},
+ keywords = {MEG/EEG, Neuronal oscillations, Machine learning, Covariance, Spatial filters, Riemannian geometry},
+ pages = {116893},
+ title = {Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states},
+ url = {http://www.sciencedirect.com/science/article/pii/S1053811920303797},
+ volume = {222},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Comparison of beamformer implementations for MEG source localization</b><br/>
+    Jaiswal, A., Nenonen, J., Stenroos, M., <strong><em>Gramfort, A.</em></strong>, Dalal, S., Westner, B., Litvak, V., Mosher, J., Schoffelen, J., Witton, C., Oostenveld, R. and Parkkonen, L. (2020)
+        <br/>
+        NeuroImage
+            .
+    <br/>
+        <a href="http://www.sciencedirect.com/science/article/pii/S1053811920302846">[www]</a>
+        <a class="publi-bibtex-button" id="bibtex_5">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_5_content">
+            <pre>@article{jaiswal-etal:20,
+ author = {Jaiswal, A., Nenonen, J., Stenroos, M., <strong><em>Gramfort, A.</em></strong>, Dalal, S., Westner, B., Litvak, V., Mosher, J., Schoffelen, J., Witton, C., Oostenveld, R. and Parkkonen, L.},
+ doi = {https://doi.org/10.1016/j.neuroimage.2020.116797},
+ issn = {1053-8119},
+ journal = {NeuroImage},
+ keywords = {MEG, EEG, source modeling, beamformers, LCMV, open-source analysis toolbox},
+ pages = {116797},
+ title = {Comparison of beamformer implementations for MEG source localization},
+ url = {http://www.sciencedirect.com/science/article/pii/S1053811920302846},
+ year = {2020}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>MNE-BIDS: Organizing electrophysiological data into
+the BIDS format and facilitating their analysis</b><br/>
+    Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., <strong><em>Gramfort, A.</em></strong> and Jas, M. (2019)
+        <br/>
+        Journal of Open Source Software
+            4: (1896).
+    <br/>
+        <a href="https://joss.theoj.org/papers/10.21105/joss.01896">[www]</a>
+        <a href="https://github.com/mne-tools/mne-bids">[Code]</a>
+        <a class="publi-bibtex-button" id="bibtex_6">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_6_content">
+            <pre>@article{appelhoff_mne-bids:2019,
+ author = {Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., <strong><em>Gramfort, A.</em></strong> and Jas, M.},
+ comment = {<a href="https://github.com/mne-tools/mne-bids">[Code]</a>},
+ doi = {10.21105/joss.01896},
+ issn = {2475-9066},
+ journal = {Journal of Open Source Software},
+ language = {en},
+ month = {December},
+ number = {44},
+ pages = {1896},
+ shorttitle = {{MNE}-{BIDS}},
+ title = {{MNE}-{BIDS}: {Organizing} electrophysiological data into
+the {BIDS} format and facilitating their analysis},
+ url = {https://joss.theoj.org/papers/10.21105/joss.01896},
+ urldate = {2019-12-19},
+ volume = {4},
+ year = {2019}
+}</pre>
+        </div>
+</p><p class="post-meta">
+    <b>Manifold-regression to predict from MEG/EEG brain signals without source modeling</b><br/>
+    Sabbagh, D., Ablin, P., Varoquaux, G., <strong><em>Gramfort, A.</em></strong> and Engemann, D. (2019)
+        <br/>
+        Advances in Neural Information Processing Systems 32
+    <br/>
+        <a href="http://papers.nips.cc/paper/8952-manifold-regression-to-predict-from-megeeg-brain-signals-without-source-modeling.pdf">[www]</a>
+        <a href="https://github.com/DavidSabbagh/NeurIPS19_manifold-regression-meeg">[Code]</a>
+        <a class="publi-bibtex-button" id="bibtex_7">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_7_content">
+            <pre>@inproceedings{sabbagh-etal:2019,
+ author = {Sabbagh, D., Ablin, P., Varoquaux, G., <strong><em>Gramfort, A.</em></strong> and Engemann, D.},
+ booktitle = {Advances in Neural Information Processing Systems 32},
+ comment = {<a href="https://github.com/DavidSabbagh/NeurIPS19_manifold-regression-meeg">[Code]</a>},
+ editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+ pages = {7321--7332},
+ publisher = {Curran Associates, Inc.},
+ title = {Manifold-regression to predict from MEG/EEG brain signals without source modeling},
+ url = {http://papers.nips.cc/paper/8952-manifold-regression-to-predict-from-megeeg-brain-signals-without-source-modeling.pdf},
+ year = {2019}
+}</pre>
+        </div>
+</p><p class="post-meta">
     <b>Learning step sizes for unfolded sparse coding</b><br/>
     Ablin, P., Moreau, T., Massias, M. and <strong><em>Gramfort, A.</em></strong> (2019)
     <br/>
@@ -107,8 +306,8 @@ SLAB will provide the next generation of models and algorithms for mining electr
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.inria.fr/hal-02140383">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_0">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_0_content">
+        <a class="publi-bibtex-button" id="bibtex_8">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_8_content">
             <pre>@unpublished{ablin:hal-02140383,
  author = {Ablin, P., Moreau, T., Massias, M. and <strong><em>Gramfort, A.</em></strong>},
  hal_id = {hal-02140383},
@@ -129,8 +328,8 @@ SLAB will provide the next generation of models and algorithms for mining electr
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.archives-ouvertes.fr/hal-02263500">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_1">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_1_content">
+        <a class="publi-bibtex-button" id="bibtex_9">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_9_content">
             <pre>@unpublished{massias:hal-02263500,
  author = {Massias, M., Vaiter, S., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  hal_id = {hal-02263500},
@@ -152,8 +351,8 @@ SLAB will provide the next generation of models and algorithms for mining electr
         <a href="https://arxiv.org/pdf/1902.04812.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_2">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_2_content">
+        <a class="publi-bibtex-button" id="bibtex_10">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_10_content">
             <pre>@inproceedings{janati-etal:2019b,
  address = {Cham},
  author = {Janati, H., Bazeille, T., Thirion, B., Cuturi, M. and <strong><em>Gramfort, A.</em></strong>},
@@ -180,8 +379,8 @@ and Bao, Siqi},
         <a href="https://arxiv.org/pdf/1902.02509.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_3">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_3_content">
+        <a class="publi-bibtex-button" id="bibtex_11">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_11_content">
             <pre>@article{2019arXiv190202509B,
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190202509B},
@@ -207,8 +406,8 @@ and Bao, Siqi},
         <a href="https://arxiv.org/pdf/1901.09235.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_4">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_4_content">
+        <a class="publi-bibtex-button" id="bibtex_12">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_12_content">
             <pre>@article{2019arXiv190109235M,
  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
  adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190109235M},
@@ -233,8 +432,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.archives-ouvertes.fr/hal-01936887">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_5">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_5_content">
+        <a class="publi-bibtex-button" id="bibtex_13">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_13_content">
             <pre>@inproceedings{ablin-etal:18c,
  author = {Ablin, P., Cardoso, J. and <strong><em>Gramfort, A.</em></strong>},
  booktitle = {European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
@@ -255,8 +454,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://arxiv.org/abs/1811.02225">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_6">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_6_content">
+        <a class="publi-bibtex-button" id="bibtex_14">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_14_content">
             <pre>@inproceedings{ablin-etal:18b,
  author = {Ablin, P., Fagot, D., Wendt, H., <strong><em>Gramfort, A.</em></strong> and Fevotte, C.},
  booktitle = {ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
@@ -281,8 +480,8 @@ and Bao, Siqi},
             39: (3277--3291).
     <br/>
         <a href="http://www.jneurosci.org/content/39/17/3277">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_7">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_7_content">
+        <a class="publi-bibtex-button" id="bibtex_15">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_15_content">
             <pre>@article{Grabot-etal:19,
  abstract = {Precise timing makes the difference between harmony and cacophony, but how the brain achieves precision during timing is unknown. In this study, human participants (7 females, 5 males) generated a time interval while being recorded with magnetoencephalography. Building on the proposal that the coupling of neural oscillations provides a temporal code for information processing in the brain, we tested whether the strength of oscillatory coupling was sensitive to self-generated temporal precision. On a per individual basis, we show the presence of alpha{\textendash}beta phase{\textendash}amplitude coupling whose strength was associated with the temporal precision of self-generated time intervals, not with their absolute duration. Our results provide evidence that active oscillatory coupling engages α oscillations in maintaining the precision of an endogenous temporal motor goal encoded in β power; the when of self-timed actions. We propose that oscillatory coupling indexes the variance of neuronal computations, which translates into the precision of an individual{\textquoteright}s behavioral performance.SIGNIFICANCE STATEMENT Which neural mechanisms enable precise volitional timing in the brain is unknown, yet accurate and precise timing is essential in every realm of life. In this study, we build on the hypothesis that neural oscillations, and their coupling across time scales, are essential for the coding and for the transmission of information in the brain. We show the presence of alpha{\textendash}beta phase{\textendash}amplitude coupling (α{\textendash}β PAC) whose strength was associated with the temporal precision of self-generated time intervals, not with their absolute duration. α{\textendash}β PAC indexes the temporal precision with which information is represented in an individual{\textquoteright}s brain. Our results link large-scale neuronal variability on the one hand, and individuals{\textquoteright} timing precision, on the other.},
  author = {Grabot, L., Kononowicz, T., Dupr{\'e} la Tour, T., <strong><em>Gramfort, A.</em></strong>, Doy{\`e}re, V. and van Wassenhove, V.},
@@ -309,8 +508,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://proceedings.mlr.press/v89/ablin19a.html">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_8">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_8_content">
+        <a class="publi-bibtex-button" id="bibtex_16">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_16_content">
             <pre>@inproceedings{Ablin-etal:19a,
  address = {},
  author = {Ablin, P., <strong><em>Gramfort, A.</em></strong>, Cardoso, J. and Bach, F.},
@@ -334,8 +533,8 @@ and Bao, Siqi},
         Advances in Neural Information Processing Systems 31
     <br/>
         <a href="http://papers.nips.cc/paper/7590-multivariate-convolutional-sparse-coding-for-electromagnetic-brain-signals.pdf">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_9">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_9_content">
+        <a class="publi-bibtex-button" id="bibtex_17">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_17_content">
             <pre>@inproceedings{dupre-etal:18,
  author = {Dupr\'{e} la Tour, T., Moreau, T., Jas, M. and <strong><em>Gramfort, A.</em></strong>},
  booktitle = {Advances in Neural Information Processing Systems 31},
@@ -357,8 +556,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://proceedings.mlr.press/v89/janati19a.html">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_10">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_10_content">
+        <a class="publi-bibtex-button" id="bibtex_18">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_18_content">
             <pre>@inproceedings{janati-etal:19,
  address = {},
  author = {Janati, H., Cuturi, M. and <strong><em>Gramfort, A.</em></strong>},
@@ -384,8 +583,8 @@ and Bao, Siqi},
     <br/>
         <a href="https://www.frontiersin.org/article/10.3389/fnins.2018.00530">[www]</a>
         <a href="https://github.com/mne-tools/mne-biomag-group-demo">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_11">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_11_content">
+        <a class="publi-bibtex-button" id="bibtex_19">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_19_content">
             <pre>@article{jas-etal:18,
  author = {Jas, M., Larson, E., Engemann, D., Leppäkangas, J., Taulu, S., Hämäläinen, M. and <strong><em>Gramfort, A.</em></strong>},
  comment = {<a href="https://github.com/mne-tools/mne-biomag-group-demo">[Code]</a>},
@@ -410,8 +609,8 @@ and Bao, Siqi},
         </a>
         <a href="https://arxiv.org/abs/1802.07481">[www]</a>
         <a href="https://mathurinm.github.io/celer/">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_12">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_12_content">
+        <a class="publi-bibtex-button" id="bibtex_20">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_20_content">
             <pre>@inproceedings{Massias_Gramfort_Salmon18,
  author = {Massias, M., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  booktitle = {Proceedings of the 35th International Conference on Machine Learning},
@@ -435,8 +634,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://github.com/pierreablin/picard">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_13">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_13_content">
+        <a class="publi-bibtex-button" id="bibtex_21">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_21_content">
             <pre>@article{ablin-etal:2017,
  author = {Ablin, P., Cardoso, J. and <strong><em>Gramfort, A.</em></strong>},
  comment = {<a href="https://github.com/pierreablin/picard">[Code]</a>},
@@ -465,8 +664,8 @@ and Bao, Siqi},
         </a>
         <a href="http://iopscience.iop.org/article/10.1088/1361-6420/aac9b3/meta">[www]</a>
         <a href="https://github.com/agramfort/bayes_mxne">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_14">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_14_content">
+        <a class="publi-bibtex-button" id="bibtex_22">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_22_content">
             <pre>@article{bekhti-etal:17,
  author = {Bekhti, Y., Lucka, F., Salmon, J. and <strong><em>Gramfort, A.</em></strong>},
  comment = {<a href="https://github.com/agramfort/bayes_mxne">[Code]</a>},
@@ -487,8 +686,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://github.com/pierreablin/picard">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_15">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_15_content">
+        <a class="publi-bibtex-button" id="bibtex_23">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_23_content">
             <pre>@inproceedings{ablin-etal:2018b,
  address = {Cham},
  author = {Ablin, P., Cardoso, J. and <strong><em>Gramfort, A.</em></strong>},
@@ -513,8 +712,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://github.com/pierreablin/picard">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_16">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_16_content">
+        <a class="publi-bibtex-button" id="bibtex_24">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_24_content">
             <pre>@inproceedings{ablin-etal:2018a,
  address = {Calgary, Canada},
  author = {Ablin, P., Cardoso, J. and <strong><em>Gramfort, A.</em></strong>},
@@ -536,8 +735,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.archives-ouvertes.fr/hal-01696786">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_17">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_17_content">
+        <a class="publi-bibtex-button" id="bibtex_25">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_25_content">
             <pre>@inproceedings{duprelatour-etal:18,
  address = {Calgary, Canada},
  author = {Dupré la Tour, T., Grenier, Y. and <strong><em>Gramfort, A.</em></strong>},
@@ -562,8 +761,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://github.com/mne-tools/mne-features">[Code]</a>
-        <a class="publi-bibtex-button" id="bibtex_18">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_18_content">
+        <a class="publi-bibtex-button" id="bibtex_26">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_26_content">
             <pre>@inproceedings{schiratti-etal:2018a,
  address = {Calgary, Canada},
  author = {Schiratti, J., Le Douget, J., Le Van Quyen, M., Essid, S. and <strong><em>Gramfort, A.</em></strong>},
@@ -586,8 +785,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://doi.org/10.1371/journal.pcbi.1005893">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_19">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_19_content">
+        <a class="publi-bibtex-button" id="bibtex_27">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_27_content">
             <pre>@article{duprelatour-etal:2017b,
  abstract = {Author summary Neural oscillations synchronize information across brain areas at various anatomical and temporal scales. Of particular relevance, slow fluctuations of brain activity have been shown to affect high frequency neural activity, by regulating the excitability level of neural populations. Such cross-frequency-coupling can take several forms. In the most frequently observed type, the power of high frequency activity is time-locked to a specific phase of slow frequency oscillations, yielding phase-amplitude-coupling (PAC). Even when readily observed in neural recordings, such non-linear coupling is particularly challenging to formally characterize. Typically, neuroscientists use band-pass filtering and Hilbert transforms with ad-hoc correlations. Here, we explicitly address current limitations and propose an alternative probabilistic signal modeling approach, for which statistical inference is fast and well-posed. To statistically model PAC, we propose to use non-linear auto-regressive models which estimate the spectral modulation of a signal conditionally to a driving signal. This conditional spectral analysis enables easy model selection and clear hypothesis-testing by using the likelihood of a given model. We demonstrate the advantage of the model-based approach on three datasets acquired in rats and in humans. We further provide novel neuroscientific insights on previously reported PAC phenomena, capturing two mechanisms in PAC: influence of amplitude and directionality estimation.},
  author = {Dupré la Tour, T., Tallot, L., Grabot, L., Doyere, V., van Wassenhove, V., Grenier, Y. and <strong><em>Gramfort, A.</em></strong>},
@@ -615,8 +814,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://jmlr.org/papers/v18/16-577.html">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_20">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_20_content">
+        <a class="publi-bibtex-button" id="bibtex_28">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_28_content">
             <pre>@article{ndiaye-etal:17b,
  author = {Ndiaye, E., Fercoq, O., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  journal = {Journal of Machine Learning Research},
@@ -640,8 +839,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://stacks.iop.org/1742-6596/904/i=1/a=012006">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_21">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_21_content">
+        <a class="publi-bibtex-button" id="bibtex_29">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_29_content">
             <pre>@article{ndiaye-etal:17,
  abstract = {In high dimensional settings, sparse structures are crucial for efficiency, both in term of memory, computation and performance. It is customary to consider ℓ 1 penalty to enforce sparsity in such scenarios. Sparsity enforcing methods, the Lasso being a canonical example, are popular candidates to address high dimension. For efficiency, they rely on tuning a parameter trading data fitting versus sparsity. For the Lasso theory to hold this tuning parameter should be proportional to the noise level, yet the latter is often unknown in practice. A possible remedy is to jointly optimize over the regression parameter as well as over the noise level. This has been considered under several names in the literature: Scaled-Lasso, Square-root Lasso, Concomitant Lasso estimation for instance, and could be of interest for uncertainty quantification. In this work, after illustrating numerical difficulties for the Concomitant Lasso formulation, we propose a modification we coined Smoothed Concomitant Lasso, aimed at increasing numerical stability. We propose an efficient and accurate solver leading to a computational cost no more expensive than the one for the Lasso. We leverage on standard ingredients behind the success of fast Lasso solvers: a coordinate descent algorithm, combined with safe screening rules to achieve speed efficiency, by eliminating early irrelevant features.},
  author = {Ndiaye, E., Fercoq, O., <strong><em>Gramfort, A.</em></strong>, Leclère, V. and Salmon, J.},
@@ -664,8 +863,8 @@ and Bao, Siqi},
         <a href="https://hal.archives-ouvertes.fr/hal-01531238/document">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_22">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_22_content">
+        <a class="publi-bibtex-button" id="bibtex_30">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_30_content">
             <pre>@inproceedings{bekhti-etal:17,
  author = {Bekhti, Y., Badeau, R. and <strong><em>Gramfort, A.</em></strong>},
  booktitle = {2017 25th European Signal Processing Conference (EUSIPCO)},
@@ -692,8 +891,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://dx.doi.org/10.1038/sdata.2018.110">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_23">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_23_content">
+        <a class="publi-bibtex-button" id="bibtex_31">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_31_content">
             <pre>@article{NisoGalan-etal:18,
  author = {Niso, G., Gorgolewski, K., Bock, E., Brooks, T., Flandin, G., <strong><em>Gramfort, A.</em></strong>, Henson, R., Jas, M., Litvak, V., T. Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J. and Baillet, S.},
  date = {2018/06/19/online},
@@ -718,8 +917,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://www.sciencedirect.com/science/article/pii/S1053811917305013">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_24">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_24_content">
+        <a class="publi-bibtex-button" id="bibtex_32">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_32_content">
             <pre>@article{jas-etal:17b,
  author = {Jas, M., Engemann, D., Bekhti, Y., Raimondo, F. and <strong><em>Gramfort, A.</em></strong>},
  doi = {https://doi.org/10.1016/j.neuroimage.2017.06.030},
@@ -742,8 +941,8 @@ and Bao, Siqi},
         <a href="http://proceedings.mlr.press/v84/massias18a/massias18a.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_25">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_25_content">
+        <a class="publi-bibtex-button" id="bibtex_33">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_33_content">
             <pre>@inproceedings{massias-etal:2017,
  author = {Massias, M., Fercoq, O., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  booktitle = {AISTATS},
@@ -764,8 +963,8 @@ and Bao, Siqi},
         <a href="http://papers.nips.cc/paper/6710-learning-the-morphology-of-brain-signals-using-alpha-stable-convolutional-sparse-coding.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_26">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_26_content">
+        <a class="publi-bibtex-button" id="bibtex_34">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_34_content">
             <pre>@inproceedings{jas-etal:2017,
  author = {Jas, M., Dupr\'{e} la Tour, T., Simsekli, U. and <strong><em>Gramfort, A.</em></strong>},
  booktitle = {Advances in Neural Information Processing Systems (NIPS) 30},
@@ -784,8 +983,8 @@ and Bao, Siqi},
         <a href="http://arxiv.org/pdf/1703.07285.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_27">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_27_content">
+        <a class="publi-bibtex-button" id="bibtex_35">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_35_content">
             <pre>@misc{1703.07285,
  author = {Massias, M., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  eprint = {arXiv:1703.07285},
@@ -804,8 +1003,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.archives-ouvertes.fr/hal-01448603/">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_28">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_28_content">
+        <a class="publi-bibtex-button" id="bibtex_36">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_36_content">
             <pre>@inproceedings{dupre-etal:2017,
  address = {New Orleans, USA},
  author = {Dupre la Tour, T., Grenier, Y. and <strong><em>Gramfort, A.</em></strong>},
@@ -827,8 +1026,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="https://hal.archives-ouvertes.fr/hal-01451432/">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_29">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_29_content">
+        <a class="publi-bibtex-button" id="bibtex_37">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_37_content">
             <pre>@inproceedings{montoya-etal:2017,
  address = {Grenoble, France},
  author = {Montoya-Martinez, J., Cardoso, J. and <strong><em>Gramfort, A.</em></strong>},
@@ -849,8 +1048,8 @@ and Bao, Siqi},
         <a href="http://arxiv.org/pdf/1602.06225v1.pdf">
             <img src="images/Haltools_pdf.png">
         </a>
-        <a class="publi-bibtex-button" id="bibtex_30">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_30_content">
+        <a class="publi-bibtex-button" id="bibtex_38">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_38_content">
             <pre>@inproceedings{ndiaye-etal:16b,
  author = {Ndiaye, E., Fercoq, O., <strong><em>Gramfort, A.</em></strong> and Salmon, J.},
  booktitle = {Proc. NIPS 2016},
@@ -870,8 +1069,8 @@ and Bao, Siqi},
             <img src="images/Haltools_pdf.png">
         </a>
         <a href="http://stacks.iop.org/1742-6596/904/i=1/a=012006">[www]</a>
-        <a class="publi-bibtex-button" id="bibtex_31">[BibTeX]</a>
-        <div class="publi-bibtex" id="bibtex_31_content">
+        <a class="publi-bibtex-button" id="bibtex_39">[BibTeX]</a>
+        <div class="publi-bibtex" id="bibtex_39_content">
             <pre>@article{ndiaye-etal:16a,
  abstract = {In high dimensional settings, sparse structures are crucial for efficiency, both in term of memory, computation and performance. It is customary to consider ℓ 1 penalty to enforce sparsity in such scenarios. Sparsity enforcing methods, the Lasso being a canonical example, are popular candidates to address high dimension. For efficiency, they rely on tuning a parameter trading data fitting versus sparsity. For the Lasso theory to hold this tuning parameter should be proportional to the noise level, yet the latter is often unknown in practice. A possible remedy is to jointly optimize over the regression parameter as well as over the noise level. This has been considered under several names in the literature: Scaled-Lasso, Square-root Lasso, Concomitant Lasso estimation for instance, and could be of interest for uncertainty quantification. In this work, after illustrating numerical difficulties for the Concomitant Lasso formulation, we propose a modification we coined Smoothed Concomitant Lasso, aimed at increasing numerical stability. We propose an efficient and accurate solver leading to a computational cost no more expensive than the one for the Lasso. We leverage on standard ingredients behind the success of fast Lasso solvers: a coordinate descent algorithm, combined with safe screening rules to achieve speed efficiency, by eliminating early irrelevant features.},
  author = {Ndiaye, E., Fercoq, O., <strong><em>Gramfort, A.</em></strong>, Leclère, V. and Salmon, J.},
