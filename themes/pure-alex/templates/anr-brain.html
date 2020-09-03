@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="pure-g-r" id="layout">
+    {% include 'sidebar.html' %}
+    <div class="pure-u-1">
+        <div class="content">
+            <div id="publications" class="posts" >
+                <h1 class="content-nicehead">
+                    ANR Chaire IA: <br>
+                    Bridging Artificial Intelligence and Neuroscience (<a href="https://anr.fr/fr/actualites-de-lanr/details/news/publication-des-resultats-de-lappel-a-projets-chaires-de-recherche-et-denseignement-en-intellige/">BrAIN</a>)
+                </h1>
+                <p>
+                    <b>Summary:</b>
+
+Artificial intelligence (AI) with recent progress in statistical machine learning (ML) is currently aiming to revolutionise how experimental science is conducted. In physics, chemistry, biology, neuroscience or medicine, data is now the driver of new theoretical insights and new scientific hypotheses. Supervised learning and predictive models are now used to assess if something is “predictable”: Can I predict what people “think” from neural signals? Can I predict from DNA if a patient will suffer from cancer? ML is now used as a replacement for classical statistical hypothesis testing. In healthcare, one talks about precision medicine, virtual patients with the vision that artificial intelligence will allow to have individualised predictions from genomic, physiological or imaging data.
+After pioneering breakthroughs in computer vision, speech processing or natural language processing, ML has now to face new challenges in order to impact various scientific disciplines and in particular health related applications. When considering medical applications, statistical and computational problems emerge. i) The first problem is related to the absence or limited amount supervision for algorithms: supervised predictive models need so-called annotations or labels to be trained and tested, and unfortunately too few medical applications can provide enough of these. ii) The second problem is related to what can be phrased as dataset variability, or in more statistical terms, distribution or covariate shifts. What has been called in computer vision the “dataset bias” problem, implies that training on data from a certain hospital is likely to provide less powerful prediction when testing on data from a different hospital. iii) The third problem is related to the difficulty of bringing the state-of-the-art tools to an environment that is not dominated by computer scientists but biologists, neuroscientists, psychologists, medical doctors. BrAIN aims to provide the next generation of ML models and algorithms for efficient statistical learning in the absence of strong labels and large sample sizes. BrAIN will leverage clear use-cases in clinical and cognitive neuroscience (anaesthesia, disorders of consciousness, sleep medicine) to address general ML challenges: 1) study of various self-supervised learning tasks to learn from long and noisy temporal data 2) learning to augment data and increase sample sizes 3) robust learning in the presence of distribution shifts 4) development of tractable algorithms easy to use by non-experts.
+
+                </p>
+                <h2 class="content-subhead">Publications related to the BrAIN Project:</h2>
+                {% for item in PUBLICATION_LIST_BRAIN %}
+                    {% include 'publi.html' %}
+                {% endfor %}
+                {% include 'footer.html' %}
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

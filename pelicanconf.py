@@ -67,7 +67,9 @@ PAGINATION_PATTERNS = (
 PLUGIN_PATHS = ['../pelican-plugins']
 
 TEMPLATE_PAGES = {'publications.html': 'publications.html',
-                  'erc-slab.html': 'erc-slab.html'}
+                  'erc-slab.html': 'erc-slab.html',
+                  'anr-brain.html': 'anr-brain.html',
+                  }
 
 # Publications
 
@@ -126,9 +128,11 @@ def get_bib_entries(bib_fname):
 
 entries = get_bib_entries('./data/Gramfort.bib')
 entries_slab = get_bib_entries('./data/Gramfort_SLAB.bib')
+entries_brain = get_bib_entries('./data/Gramfort_BrAIN.bib')
 
 # records.entries.sort(key=lambda record: record['year'], reverse=True)
 
 PUBLICATION_LIST = entries
-PUBLICATION_LIST_SLAB = entries_slab
 PUBLICATION_LIST_SHORT = PUBLICATION_LIST[:7]
+PUBLICATION_LIST_SLAB = entries_slab
+PUBLICATION_LIST_BRAIN = entries_brain
