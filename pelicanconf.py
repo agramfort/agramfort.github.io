@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import re
 import bibtexparser
 
 
@@ -117,7 +118,22 @@ def get_bib_entries(bib_fname):
             if key in item:
                 del item[key]
 
-        item['bibtex'] = bibtexparser.dumps(one_records).strip()
+        bibtex_str = bibtexparser.dumps(one_records).strip()
+
+        regex = r"author = {[^}]*}"
+        matches = list(re.finditer(regex, bibtex_str, re.MULTILINE))
+        assert len(matches) == 1
+        match = matches[0]
+        start, stop = match.start(), match.end()
+        author_str = bibtex_str[start:stop]
+        author_str_ok = ''
+        for k, s in enumerate(author_str.split(', ')):
+            author_str_ok += ' and ' if k % 2 == 0 else ', '
+            author_str_ok += s
+
+        bibtex_str_ok = bibtex_str[:start] + author_str_ok + bibtex_str[stop:]
+        item['bibtex'] = bibtex_str_ok
+
         item['title'] = make_nice_title(item['title'])
         item['index'] = k
         if 'url' in item:
