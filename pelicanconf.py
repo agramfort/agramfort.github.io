@@ -75,24 +75,27 @@ TEMPLATE_PAGES = {'publications.html': 'publications.html',
 # Publications
 
 
-def make_nice_author(author, emphasize='Gramfort, A.'):
+def make_nice_author(author, emphasize='Gramfort A.'):
     split_author = author.split(' and ')
     insert_pos = len(split_author) - 1
     names_split = [au.split(', ') for au in split_author]
-    names = ['{}, {}.'.format(n[0], n[1][:1]) for n in names_split]
-    if len(split_author) > 1:
-        author_edit = ', '.join(names[:insert_pos]) + ' and ' + names[insert_pos]
-    else:
-        author_edit = names[insert_pos]
+    names = ['{} {}.'.format(n[0], n[1][:1]) for n in names_split]
+    author_edit = ', '.join(names)
+    # if len(split_author) > 1:
+    #     author_edit = ', '.join(names[:insert_pos]) + ' and ' + names[insert_pos]
+    # else:
+    #     author_edit = names[insert_pos]
     if emphasize:
         author_edit = author_edit.replace(
             emphasize, '<strong><em>' + emphasize + '</em></strong>')
     return author_edit
 
+
 def make_nice_title(title):
     title = title.replace('{', '')
     title = title.replace('}', '')
     return title
+
 
 """ XXX
 - make sure not to use unicode or LaTeX code
@@ -113,30 +116,31 @@ def get_bib_entries(bib_fname):
 
     for k, item in enumerate(records.entries):
         one_records.entries = records.entries[k:k + 1]
-        item['author'] = make_nice_author(item['author'])
         for key in ['annote', 'owner', 'group', 'topic']:
             if key in item:
                 del item[key]
 
         bibtex_str = bibtexparser.dumps(one_records).strip()
+        item['author_html'] = make_nice_author(item['author'])
 
-        regex = r"author = {[^}]*}"
-        matches = list(re.finditer(regex, bibtex_str, re.MULTILINE))
-        assert len(matches) == 1
-        match = matches[0]
-        start, stop = match.start(), match.end()
-        author_str = bibtex_str[start:stop]
-        author_str_ok = ''
-        splits = author_str.split(', ')
-        for k, s in enumerate(splits):
-            if ((k % 2 == 0) and k < (len(splits) - 2)):
-                author_str_ok += ' and '
-            else:
-                author_str_ok += ', '
-            author_str_ok += s
+        # regex = r"author = {[^}]*}"
+        # matches = list(re.finditer(regex, bibtex_str, re.MULTILINE))
+        # assert len(matches) == 1
+        # match = matches[0]
+        # start, stop = match.start(), match.end()
+        # author_str = bibtex_str[start:stop]
+        # author_str_ok = ''
+        # splits = author_str.split(', ')
+        # for k, s in enumerate(splits):
+        #     if ((k % 2 == 0) and k < (len(splits) - 2)):
+        #         author_str_ok += ' and '
+        #     else:
+        #         author_str_ok += ', '
+        #     author_str_ok += s
 
-        bibtex_str_ok = bibtex_str[:start] + author_str_ok + bibtex_str[stop:]
-        item['bibtex'] = bibtex_str_ok
+        # bibtex_str_ok = bibtex_str[:start] + author_str_ok + bibtex_str[stop:]
+        item['bibtex'] = bibtex_str
+        # item['bibtex'] = bibtex_str_ok
 
         item['title'] = make_nice_title(item['title'])
         item['index'] = k
