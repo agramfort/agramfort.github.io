@@ -12,6 +12,7 @@ category: team
 ### Post-docs
 
   - [Pedro L. C. Rodrigues](https://scholar.google.fr/citations?user=8Jiux08AAAAJ&hl=en)
+  - [Cédric Rommel](https://cedricrommel.github.io/)
 
 ### PhD Students
 
@@ -20,13 +21,15 @@ category: team
   - [Hubert Banville](https://hubertjb.github.io/) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [David Sabbagh](https://github.com/DavidSabbagh) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [Charlotte Caucheteux](https://www.researchgate.net/profile/Charlotte_Caucheteux) (coadvised with [Jean-Rémi King](https://lsp.dec.ens.fr/fr/member/64687/jean-remi-king))
+  - [L. Omar Chehab](https://l-omar-chehab.github.io/) (coadvised with [Aapo Hyvärinen](https://www.cs.helsinki.fi/u/ahyvarin/))
+  - [Cedric Allain](https://github.com/CedricAllain) (coadvised with [Thomas Moreau](https://tommoral.github.io/about.html))
 
 ### Alumni
 
-  - [Joan Massich](https://github.com/massich)
-  - [Thomas Moreau](https://tommoral.github.io/about.html)
-  - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/))
-  - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
+  - [Joan Massich](https://github.com/massich) (now software engineer at Disney) [Engineer]
+  - [Thomas Moreau](https://tommoral.github.io/about.html) (now Researcher at Inria) [Post-Doc]
+  - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/)) (now Post-Doc at ENS ULM Paris) [PhD]
+  - [Mathurin Massias](https://mathurinm.github.io) (coadvised with [Joseph Salmon](http://josephsalmon.eu)) (now post-doc at Univ. Genova) [PhD]
   - [Roque Porchetto](https://www.linkedin.com/in/roque-porchetto-74897b31/) (now engineer at nexedi) [Engineer]
   - [Tom Dupré La Tour](https://www.researchgate.net/profile/Tom_Dupre_La_Tour) (coadvised with [Yves Grenier](http://perso.telecom-paristech.fr/~grenier/)) (now post-doc at UC Berkeley) [PhD]
   - [Stanislas Chambon](https://slasnista.github.io) (now engineer at therapixel) [PhD]
