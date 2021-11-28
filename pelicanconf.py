@@ -143,6 +143,8 @@ def get_bib_entries(bib_fname):
         # item['bibtex'] = bibtex_str_ok
 
         item['title'] = make_nice_title(item['title'])
+        if "booktitle" in item:
+            item['booktitle'] = make_nice_title(item['booktitle'])
         item['index'] = k
         if 'url' in item:
             item['link'] = item['url']

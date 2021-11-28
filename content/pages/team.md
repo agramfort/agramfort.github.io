@@ -11,21 +11,23 @@ category: team
 
 ### Post-docs
 
-  - [Pedro L. C. Rodrigues](https://scholar.google.fr/citations?user=8Jiux08AAAAJ&hl=en)
   - [Cédric Rommel](https://cedricrommel.github.io/)
 
 ### PhD Students
 
-  - [Hicham Janati](https://hichamjanati.github.io) (coadvised with [Marco Cuturi](http://marcocuturi.net/))
-  - [Quentin Bertrand](https://qb3.github.io/) (coadvised with [Joseph Salmon](http://josephsalmon.eu))
   - [Hubert Banville](https://hubertjb.github.io/) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [David Sabbagh](https://github.com/DavidSabbagh) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [Charlotte Caucheteux](https://www.researchgate.net/profile/Charlotte_Caucheteux) (coadvised with [Jean-Rémi King](https://lsp.dec.ens.fr/fr/member/64687/jean-remi-king))
   - [L. Omar Chehab](https://l-omar-chehab.github.io/) (coadvised with [Aapo Hyvärinen](https://www.cs.helsinki.fi/u/ahyvarin/))
   - [Cedric Allain](https://github.com/CedricAllain) (coadvised with [Thomas Moreau](https://tommoral.github.io/about.html))
+  - [Julia Linhart](https://github.com/JuliaLinhart) (coadvised with [Pedro Rodrigues](https://plcrodrigues.github.io))
+  - [Apolline Mellot](https://github.com/apmellot) (coadvised with [Denis Engemann](https://denis-engemann.de))
 
 ### Alumni
 
+  - [Pedro L. C. Rodrigues](https://plcrodrigues.github.io) (now tenured research scientist at Inria) [Post-Doc]
+  - [Quentin Bertrand](https://qb3.github.io/) (coadvised with [Joseph Salmon](http://josephsalmon.eu)) (now Post-Doc at MILA) [PhD]
+  - [Hicham Janati](https://hichamjanati.github.io) (coadvised with [Marco Cuturi](http://marcocuturi.net/)) (now Post-Doc at Ecole Polytechnique) [PhD]
   - [Joan Massich](https://github.com/massich) (now software engineer at Disney) [Engineer]
   - [Thomas Moreau](https://tommoral.github.io/about.html) (now Researcher at Inria) [Post-Doc]
   - [Pierre Ablin](https://pierreablin.com) (coadvised with [Jean-François Cardoso](http://perso.telecom-paristech.fr/~cardoso/)) (now Post-Doc at ENS ULM Paris) [PhD]
