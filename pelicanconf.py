@@ -103,7 +103,7 @@ def make_nice_title(title):
 """
 
 
-def get_bib_entries(bib_fname):
+def get_bib_entries(bib_fname, funding=None):
     with open(bib_fname) as bib:
         bib_str = bib.read()
 
@@ -115,8 +115,13 @@ def get_bib_entries(bib_fname):
     entries = []
 
     for k, item in enumerate(records.entries):
+        has_funding = funding is not None and funding in item.get('x-funding', 'ZZZZ')
+        has_funding |= funding is None
+        if not has_funding:
+            continue
+        
         one_records.entries = records.entries[k:k + 1]
-        for key in ['annote', 'owner', 'group', 'topic']:
+        for key in ['annote', 'owner', 'group', 'topic', 'x-funding']:
             if key in item:
                 del item[key]
 
@@ -153,8 +158,10 @@ def get_bib_entries(bib_fname):
 
 
 entries = get_bib_entries('./data/Gramfort.bib')
-entries_slab = get_bib_entries('./data/Gramfort_SLAB.bib')
-entries_brain = get_bib_entries('./data/Gramfort_BrAIN.bib')
+entries_brain = get_bib_entries('./data/Gramfort.bib', 'BrAIN')
+entries_brain = get_bib_entries('./data/Gramfort.bib', 'SLAB')
+# entries_slab = get_bib_entries('./data/Gramfort_SLAB.bib')
+# entries_brain = get_bib_entries('./data/Gramfort_BrAIN.bib')
 
 # records.entries.sort(key=lambda record: record['year'], reverse=True)
 
