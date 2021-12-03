@@ -159,7 +159,7 @@ def get_bib_entries(bib_fname, funding=None):
 
 entries = get_bib_entries('./data/Gramfort.bib')
 entries_brain = get_bib_entries('./data/Gramfort.bib', 'BrAIN')
-entries_brain = get_bib_entries('./data/Gramfort.bib', 'SLAB')
+entries_slab = get_bib_entries('./data/Gramfort.bib', 'SLAB')
 # entries_slab = get_bib_entries('./data/Gramfort_SLAB.bib')
 # entries_brain = get_bib_entries('./data/Gramfort_BrAIN.bib')
 
