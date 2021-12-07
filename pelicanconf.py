@@ -77,14 +77,18 @@ TEMPLATE_PAGES = {'publications.html': 'publications.html',
 
 def make_nice_author(author, emphasize='Gramfort A.'):
     split_author = author.split(' and ')
-    insert_pos = len(split_author) - 1
     names_split = [au.split(', ') for au in split_author]
     names = ['{} {}.'.format(n[0], n[1][:1]) for n in names_split]
     author_edit = ', '.join(names)
-    # if len(split_author) > 1:
-    #     author_edit = ', '.join(names[:insert_pos]) + ' and ' + names[insert_pos]
-    # else:
-    #     author_edit = names[insert_pos]
+    author_edit = author_edit.replace('{\\"a}', "ä")
+    author_edit = author_edit.replace('{\\" a}', "ä")
+    author_edit = author_edit.replace('{\\"o}', "ö")
+    author_edit = author_edit.replace("{\\'e}", "é")
+    author_edit = author_edit.replace("{\\' e}", "é")
+    author_edit = author_edit.replace("{\\`e}", "è")
+    author_edit = author_edit.replace("{\\` e}", "è")
+    author_edit = author_edit.replace("{\\^ o}", "ô")
+    author_edit = author_edit.replace("{\\^ i}", "î")
     if emphasize:
         author_edit = author_edit.replace(
             emphasize, '<strong><em>' + emphasize + '</em></strong>')
