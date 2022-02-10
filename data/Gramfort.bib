@@ -1,3 +1,17 @@
+@article {engemann-etal:2021,
+	author = {Engemann, Denis A. and Mellot, Apolline and H{\"o}chenberger, Richard and Banville, Hubert and Sabbagh, David and Gemein, Lukas and Ball, Tonio and Gramfort, Alexandre},
+	title = {A reusable benchmark of brain-age prediction from M/EEG resting-state signals},
+	elocation-id = {2021.12.14.472691},
+	year = {2021},
+	doi = {10.1101/2021.12.14.472691},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Population-level modeling can define quantitative measures of individual aging by applying machine learning to large volumes of brain images. These measures of brain age, obtained from the general population, helped characterize disease severity in neurological populations, improving estimates of diagnosis or prognosis. Magnetoencephalography (MEG) and Electroencephalography (EEG) have the potential to further generalize this approach towards prevention and public health by enabling assessments of brain health at large scales in socioeconomically diverse environments. However, more research is needed to define methods that can handle the complexity and diversity of M/EEG signals across diverse real-world contexts. To catalyse this effort, here we propose reusable benchmarks of competing machine learning approaches for brain age modeling. We benchmarked popular classical machine learning pipelines and deep learning architectures previously used for pathology decoding or brain age estimation in 4 international M/EEG cohorts from diverse countries and cultural contexts, including recordings from more than 2500 participants. Our benchmarks were built on top of the M/EEG adaptations of the BIDS standard, providing tools that can be applied with minimal modification on any M/EEG dataset provided in the BIDS format. Our results suggest that, regardless of whether classical machine learning or deep learning was used, the highest performance was reached by pipelines and architectures involving spatially aware representations of the M/EEG signals, leading to R^2 scores between 0.60-0.71. Hand-crafted features paired with random forest regression provided robust benchmarks even in situations in which other approaches failed. Taken together, this set of benchmarks, accompanied by open-source software and high-level Python scripts, can serve as a starting point and quantitative reference for future efforts at developing M/EEG-based measures of brain aging. The generality of the approach renders this benchmark reusable for other related objectives such as modeling specific cognitive variables or clinical endpoints.Highlights- We provide systematic reusable benchmarks for brain age from M/EEG signals- The benchmarks were carried out on M/EEG from four countries \&gt; 2500 recordings- We compared machine learning pipelines capable of handling the non-linear regression task of relating biomedical outcomes to M/EEG dynamics, based on classical machine learning and deep learning- Next to data-driven methods we benchmarked template-based source localization as a practical tool for generating features less affected by electromagnetic field spread- The benchmarks are built on top of the MNE ecosystem and the braindecode package and can be applied on any M/EEG dataset presented in the BIDS formatCompeting Interest StatementD.E. is a full-time employee of F. Hoffmann-La Roche Ltd. H.B. receives graduate funding support from InteraXon Inc.},
+	URL = {https://www.biorxiv.org/content/early/2021/12/16/2021.12.14.472691},
+	eprint = {https://www.biorxiv.org/content/early/2021/12/16/2021.12.14.472691.full.pdf},
+	journal = {bioRxiv},
+  x-funding={ANR BrAIN, ANR AICog},
+}
+
 @InProceedings{richard-etal:21,
   title = {{Shared Independent Component Analysis for Multi-Subject Neuroimaging}},
   author = {Richard, Hugo and Ablin, Pierre and Thirion, Bertrand and Gramfort, Alexandre and Hyv{\"a}rinen, Aapo},
@@ -262,17 +276,6 @@ x-funding={ERC SLAB}
   archivePrefix = {arXiv},
   eprint    = {2009.14310},
   x-funding={ERC SLAB}
-}
-
-@article{banville-etal:20,
-  author    = {Banville, Hubert J. and Chehab, Omar and Hyv{\"a}rinen, Aapo and Engemann, Denis{-}Alexander and Gramfort, Alexandre},
-  title     = {Uncovering the structure of clinical {EEG} signals with self-supervised
-               learning},
-  journal={Journal of Neural Engineering},
-  url={http://iopscience.iop.org/article/10.1088/1741-2552/abca18},
-  year      = {2020},
-  pdf = {https://arxiv.org/pdf/2007.16104},
-  x-funding={ANR BrAIN}
 }
 
 @InProceedings{janati-etal:20a,
