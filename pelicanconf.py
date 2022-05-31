@@ -35,7 +35,9 @@ SOCIAL = (
     ('github', 'https://github.com/agramfort/'),
     ('twitter-square', 'https://twitter.com/agramfort'),
     ('google-scholar-square', 'https://scholar.google.com/citations?user=fhxshS0AAAAJ'),
-    ('linkedin', 'https://www.linkedin.com/in/alexandregramfort')
+    ('linkedin', 'https://www.linkedin.com/in/alexandregramfort'),
+    ('slideshare', 'https://slideslive.com/s/alexandre-gramfort-30748'),
+    ('youtube', 'https://www.youtube.com/playlist?list=PLHbs5LeOxdhIpGOmbEYhOXtpo0yFK6cRk')
 )
 
 DEFAULT_PAGINATION = 10
