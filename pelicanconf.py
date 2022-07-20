@@ -53,9 +53,11 @@ PROFILE_IMAGE_URL = '/images/picture3.jpg'
 
 GOOGLE_ANALYTICS = "UA-112258-9"
 
-STATIC_PATHS = ['images', 'pdfs', 'widgets']
-PAGE_EXCLUDES = ['widgets', '.ipynb_checkpoints']
-ARTICLE_EXCLUDES = ['widgets', '.ipynb_checkpoints']
+PAGE_PATHS = ['pages']
+# STATIC_PATHS = ['images', 'pdfs', 'widgets']
+STATIC_PATHS = ['images']
+PAGE_EXCLUDES = ['.ipynb_checkpoints']
+ARTICLE_EXCLUDES = ['.ipynb_checkpoints']
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_DATE = 'fs'
