@@ -20,7 +20,7 @@ closely with the following people:
 
 ### PhD Students
 
-  - [Charlotte Caucheteux](https://www.researchgate.net/profile/Charlotte_Caucheteux) (coadvised with [Jean-Rémi King](https://lsp.dec.ens.fr/fr/member/64687/jean-remi-king))
+  - [Charlotte Caucheteux](https://charlottecaucheteux.github.io/) (coadvised with [Jean-Rémi King](https://lsp.dec.ens.fr/fr/member/64687/jean-remi-king))
   - [L. Omar Chehab](https://l-omar-chehab.github.io/) (coadvised with [Aapo Hyvärinen](https://www.cs.helsinki.fi/u/ahyvarin/))
   - [Cedric Allain](https://github.com/CedricAllain) (coadvised with [Thomas Moreau](https://tommoral.github.io/about.html))
   - [Julia Linhart](https://github.com/JuliaLinhart) (coadvised with [Pedro Rodrigues](https://plcrodrigues.github.io))
