@@ -1,20 +1,13 @@
-title: Team
+title: Ex- Inria Team
 sortorder: 3
 category: team
 
-I am the scientific leader of the [MIND team](https://team.inria.fr/mind/team-members/), and I work
-closely with the following people:
+With my academic activities, I work closely with the following people:
 
-<!-- ### Post Docs -->
-
-### Engineers
-
-  - [Guillaume Favellier](https://github.com/GuillaumeFavelier)
-  - [Richard Höchenberger](https://hoechenberger.net/)
+<!-- ### Engineers -->
 
 ### Post-docs
 
-  - [Cédric Rommel](https://cedricrommel.github.io/)
   - [David Sabbagh](https://github.com/DavidSabbagh)
   - [Guillaume Staerman](https://guillaumestaermanml.github.io)
 
@@ -25,9 +18,14 @@ closely with the following people:
   - [Cedric Allain](https://github.com/CedricAllain) (coadvised with [Thomas Moreau](https://tommoral.github.io/about.html))
   - [Julia Linhart](https://github.com/JuliaLinhart) (coadvised with [Pedro Rodrigues](https://plcrodrigues.github.io))
   - [Apolline Mellot](https://github.com/apmellot) (coadvised with [Denis Engemann](https://denis-engemann.de))
+  - [Theo Gnassounou](https://github.com/tgnassou) (coadvised with [Rémi Flamary](https://remi.flamary.com/))
+  - [Ambroise Heurtebise](https://github.com/AmbroiseHeurtebise) (coadvised with [Pierre Ablin](https://pierreablin.com))
 
 ### Alumni
 
+  - [Cédric Rommel](https://cedricrommel.github.io/) (now at Valeo AI) [Post-Doc]
+  - [Guillaume Favellier](https://github.com/GuillaumeFavelier) [Engineer]
+  - [Richard Höchenberger](https://hoechenberger.net/) [Engineer]
   - [Hubert Banville](https://hubertjb.github.io/) (coadvised with [Denis Engemann](http://www.denis-engemann.de/))
   - [Pedro L. C. Rodrigues](https://plcrodrigues.github.io) (now tenured researcher at Inria) [Post-Doc]
   - [Quentin Bertrand](https://qb3.github.io/) (coadvised with [Joseph Salmon](http://josephsalmon.eu)) (now Post-Doc at MILA) [PhD]
