@@ -10,6 +10,7 @@ With my academic activities, I work closely with the following people:
 
   - [David Sabbagh](https://github.com/DavidSabbagh)
   - [Guillaume Staerman](https://guillaumestaermanml.github.io)
+  - [Antoine Collas](https://www.antoinecollas.fr)
 
 ### PhD Students
 
