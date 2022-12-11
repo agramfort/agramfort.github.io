@@ -51,7 +51,8 @@ PROFILE_IMG_URL = '/images/picture3.jpg'
 # COVER_IMG_URL = './images/picture2.jpg'
 PROFILE_IMAGE_URL = '/images/picture3.jpg'
 
-GOOGLE_ANALYTICS = "UA-112258-9"
+# GOOGLE_ANALYTICS = "UA-112258-9"
+GOOGLE_ANALYTICS = "G-Y47DH1GQX9"
 
 PAGE_PATHS = ['pages']
 # STATIC_PATHS = ['images', 'pdfs', 'widgets']
