@@ -83,7 +83,10 @@ TEMPLATE_PAGES = {'publications.html': 'publications.html',
 def make_nice_author(author, emphasize='Gramfort A.'):
     split_author = author.split(' and ')
     names_split = [au.split(', ') for au in split_author]
-    names = ['{} {}.'.format(n[0], n[1][:1]) for n in names_split]
+    names = [
+        '{} {}.'.format(n[0], n[1][:1]) if len(n) > 1 else n[0]
+        for n in names_split
+    ]
     author_edit = ', '.join(names)
     author_edit = author_edit.replace('{\\"a}', "ä")
     author_edit = author_edit.replace('{\\" a}', "ä")
@@ -94,7 +97,7 @@ def make_nice_author(author, emphasize='Gramfort A.'):
     author_edit = author_edit.replace("{\\` e}", "è")
     author_edit = author_edit.replace("{\\^ o}", "ô")
     author_edit = author_edit.replace("{\\^ i}", "î")
-    if emphasize:
+    if emphasize and emphasize in author_edit:
         author_edit = author_edit.replace(
             emphasize, '<strong><em>' + emphasize + '</em></strong>')
     return author_edit
@@ -135,7 +138,11 @@ def get_bib_entries(bib_fname, funding=None):
                 del item[key]
 
         bibtex_str = bibtexparser.dumps(one_records).strip()
-        item['author_html'] = make_nice_author(item['author'])
+        try:
+            item['author_html'] = make_nice_author(item['author'])
+        except:
+            import ipdb
+            ipdb.set_trace()
 
         # regex = r"author = {[^}]*}"
         # matches = list(re.finditer(regex, bibtex_str, re.MULTILINE))
